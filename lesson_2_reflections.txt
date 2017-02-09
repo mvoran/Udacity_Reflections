@@ -5,3 +5,5 @@ The staging area allows you to create a proposed
 The staging area allows users to confirm that all files for the upcoming commit are related to one logical change.
 
 Situations include alternative final versions, experimental versions
+
+Branch diagrams allow you to see the last common ancestor of various branches
