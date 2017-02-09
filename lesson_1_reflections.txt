@@ -1,0 +1,15 @@
+Assuming the old file had no bugs, the new file can only have bugs where the lines have changes. Comparing only the changed lines allows you to navigate directly to the areas where a bug might have been created and allows you to avoid any area that could not have created the error.
+
+Previous versions might contain code fragments that you discarded in subsequent versions but which might be useful to bring back for the current version of the file or for other files that might benefit by reusing that code.
+
+Con: Depends on human to commit changes. Human may forget.
+Pro: Allows fine-grain control over scope of changes. Allows for commits to be tailored exactly to logical code changes.
+
+The differences between VCS is likely due to the nature of the files being saved. For Google Docs files are more likely to be stand-alone documents. For files managed by Git the files are likely to be part of a larger, multi-file project.
+
+Use the git log command to show the series of commits and commit notes (if any). Use the git diff command to compare two files to see the differences between the two files.
+
+With version control you should always have a "last known good version" to revert to
+
+Version control...
+
