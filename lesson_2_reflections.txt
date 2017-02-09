@@ -1,1 +1,7 @@
 Git creates framework for a new Git repository but does not commit files in that directory to the repository. This is to give the user control over the contents of the initial commit, plus it offers the user a chance to add comments to the initial commit.
+
+The staging area allows you to create a proposed 
+
+The staging area allows users to confirm that all files for the upcoming commit are related to one logical change.
+
+Situations include alternative final versions, experimental versions
