@@ -1,0 +1,4 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+
+A: Adding a remote repository allows for (1) public access to work, (2) sharing/distributing work with colleagues without the need
+to ship files around, (3) self-sharing of work across devices.
