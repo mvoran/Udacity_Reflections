@@ -2,3 +2,7 @@ Q: When would you want to use a remote repository rather than keeping all your w
 
 A: Adding a remote repository allows for (1) public access to work, (2) sharing/distributing work with colleagues without the need
 to ship files around, (3) self-sharing of work across devices.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: Since the GitHub version of the repository is more widely shared users might want to keep current work product private until a set of changes that should be shared more widely is complete.
