@@ -18,3 +18,7 @@ A: The benefit is that the user has access to the remote version of the reposito
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A: Lots of small, informal collaborative work could easily happen outside of GitHub. Where GitHub shines is in managing complex work with lots of contributors. The biggest downside to using GitHub is the learning curve to master the git commands.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A: If there is good coordination/separation between the contributors, and the user is convinced that the changes will not break master it should be OK to make changes in master. However, if coordination/approval is necessary, or if it is not possible to guarantee that the changes would not break master the user should create a separate branch to track the work.
